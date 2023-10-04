@@ -4,6 +4,45 @@
   box-sizing: border-box;
 }
 
+ /* Style pop-up */
+ .popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Style button Dark Mode */
+#openPopupButton {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style default body */
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style Dark Mode */
+body.dark-mode {
+  background-color: #333;
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  line-height: 1.8;
+}
 
 .logo {
   float: left;
