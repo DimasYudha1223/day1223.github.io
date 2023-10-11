@@ -44,30 +44,6 @@ body.dark-mode {
   line-height: 1.8;
 }
 
-.login-button {
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.login-button:hover {
-  background-color: #0056b3;
-  color: #fff;
-}
-
-.login-button {
-  text-decoration: none;
-  display: inline-block;
-}
-
-.login-button:focus, .login-button:active {
-  outline: none;
-}
 .logo {
   float: left;
   margin-left: 46px;
